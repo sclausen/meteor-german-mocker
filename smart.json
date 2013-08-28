@@ -1,0 +1,8 @@
+{
+  "name": "german-mocker",
+  "description": "A generator for german cities and names for people",
+  "homepage": "https://github.com/Phosphoros/german-mocker",
+  "author": "Sebastian Clausen (https://github.com/Phosphoros)",
+  "version": "0.0.4",
+  "git": "https://github.com/Phosphoros/german-mocker.git"
+}

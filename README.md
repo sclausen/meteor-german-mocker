@@ -1,6 +1,6 @@
 # German-Mocker
 
-A small mocking tool from which you can get random names of people and cities in germany.
+A small mocking tool from which you can get random names of people and cities in Germany.
 
 ## License
 MIT

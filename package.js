@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use(["underscore"]);
+  api.use(["underscore@1.0.0"]);
   api.addFiles([
     'german-mocker.js',
     'cities.js',

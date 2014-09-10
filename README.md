@@ -7,12 +7,8 @@ MIT
 
 ## Installation
 
-German-Mocker can be installed with
-[Meteorite](https://github.com/oortcloud/meteorite/). From inside a
-Meteorite-managed app:
-
 ```sh
-$ mrt add german-mocker
+$ meteor add phosphoros:german-mocker
 ```
 
 ## API

@@ -1,10 +1,13 @@
-Package.describe({summary:"A generator for german cities and names for people"});
+Package.describe({
+  summary: "A generator for german cities and names for people",
+  version: '0.1.0',
+  git: "https://github.com/sclausen/meteor-german-mocker.git",
+  name: "phosphoros:german-mocker"
+});
 
-Package.on_use(function (api) {
-
+Package.onUse(function(api) {
   api.use(["underscore"]);
-  api.add_files([
-    'license.js',
+  api.addFiles([
     'german-mocker.js',
     'cities.js',
     'surnames.js',
@@ -13,5 +16,4 @@ Package.on_use(function (api) {
   ], 'server');
 
   api.export('GermanMocker', 'server');
-
 });
